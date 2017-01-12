@@ -1,0 +1,48 @@
+palettes:
+  gray:
+    - x-dark
+    - dark
+    - mid
+    - light
+    - x-light
+    - xx-light
+  green:
+    - x-dark
+    - dark
+    - mid
+    - light
+    - x-light
+    - xx-light
+    - color-dodge
+  yellow:
+    - x-dark
+    - dark
+    - mid
+    - light
+    - x-light
+    - xx-light
+    - color-dodge
+  blue:
+    - x-dark
+    - dark
+    - mid
+    - light
+    - x-light
+    - xx-light
+    - color-dodge
+  red:
+    - x-dark
+    - dark
+    - mid
+    - light
+    - x-light
+    - xx-light
+    - color-dodge
+  purple:
+    - x-dark
+    - dark
+    - mid
+    - light
+    - x-light
+    - xx-light
+    - color-dodge
