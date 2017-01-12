@@ -31,3 +31,7 @@ $ npm run build
 Fabricator builds both a static documentation site and optimized CSS and JS toolkit files.
 
 The build artifacts output to the `dist` directory. This can be deployed to any static hosting environment - no language runtime or database is required.
+
+## Deploying to GitHub Page
+
+Commit changes to master and then `git subtree push --prefix dist origin gh-pages`.
