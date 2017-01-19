@@ -66,13 +66,28 @@
 					<a href="components.html" class="f-menu__heading">Components</a>
 					<ul>
 						<li>
+							<a href="components.html#borders">Borders</a>
+						</li>
+						<li>
 							<a href="components.html#buttons">Buttons</a>
+						</li>
+						<li>
+							<a href="components.html#card">Card</a>
 						</li>
 						<li>
 							<a href="components.html#form-elements">Form Elements</a>
 						</li>
 						<li>
 							<a href="components.html#lists">Lists</a>
+						</li>
+						<li>
+							<a href="components.html#panel">Panel</a>
+						</li>
+						<li>
+							<a href="components.html#text-utilities">Text Utilities</a>
+						</li>
+						<li>
+							<a href="components.html#wells">Wells</a>
 						</li>
 					</ul>
 				</li>
@@ -95,6 +110,58 @@
 
 	
 <h1 data-f-toggle="labels">Components</h1>
+
+
+<div class="f-item-group" id="borders">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Borders</h2>
+		<div class="f-item-controls">
+			
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div>
+<div class="f-item-preview">
+	<div class="row">
+	<div class="col-xs-12 col-sm-6">
+
+		<div class="ls-well ls-well--white ls-border ls-border-gray">
+			.ls-border.ls-border
+		</div>
+		<div class="ls-well ls-well--white ls-border-vertical ls-border-blue">
+			.ls-border.ls-border-vertical
+		</div>
+		<div class="ls-well ls-well--white ls-border-horizontal ls-border-red">
+			.ls-border.ls-border-horizontal
+		</div>
+
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-6&quot;&gt;
+
+		&lt;div class&#x3D;&quot;ls-well ls-well--white ls-border ls-border-gray&quot;&gt;
+			.ls-border.ls-border
+		&lt;/div&gt;
+		&lt;div class&#x3D;&quot;ls-well ls-well--white ls-border-vertical ls-border-blue&quot;&gt;
+			.ls-border.ls-border-vertical
+		&lt;/div&gt;
+		&lt;div class&#x3D;&quot;ls-well ls-well--white ls-border-horizontal ls-border-red&quot;&gt;
+			.ls-border.ls-border-horizontal
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+
+</div>
 
 
 <div class="f-item-group" id="buttons">
@@ -232,10 +299,10 @@
 </div>
 
 
-<div class="f-item-group" id="form-elements">
+<div class="f-item-group" id="card">
 
 	<div class="f-item-heading-group" data-f-toggle="labels">
-		<h2 class="f-item-heading">Form Elements</h2>
+		<h2 class="f-item-heading">Card</h2>
 		<div class="f-item-controls">
 			
 			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
@@ -247,62 +314,183 @@
 	</div>
 <div class="f-item-preview">
 	<div class="row">
+	<div class="col-xs-12 col-sm-6">
+
+		<div class="ls-cards-wrapper">
+			<div class="ls-card">
+				<img src="http://placehold.it/150x100">
+				<div class="ls-well ls-well--white">
+					<p>Polaroid everyday carry marfa leggings tumblr kickstarter. Raw denim tattooed normcore woke, direct trade enamel pin 3 wolf moon mumblecore aesthetic drinking vinegar squid.</p>
+				</div>
+			</div>
+			<div class="ls-card">
+				<div class="ls-well ls-well--white">
+					<p>Synth offal put a bird on it hella, snackwave narwhal actually green juice cold-pressed farm-to-table activated charcoal kickstarter butcher vegan. Bushwick 90's thundercats kickstarter food truck, slow-carb small batch selvage selfies master cleanse
+						cliche schlitz.</p>
+				</div>
+			</div>
+			<div class="ls-card">
+				<div class="ls-well ls-well--white">
+					<p>8-bit keytar single-origin coffee, chia mixtape blog intelligentsia cardigan knausgaard seitan crucifix.</p>
+				</div>
+				<div class="ls-card-footer">
+					<div class="ls-well ls-well--yellow">
+						Pickled single-origin coffee prism DIY, fashion axe locavore tote bag poke. Chillwave mixtape succulents asymmetrical af.
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-6&quot;&gt;
+
+		&lt;div class&#x3D;&quot;ls-cards-wrapper&quot;&gt;
+			&lt;div class&#x3D;&quot;ls-card&quot;&gt;
+				&lt;img src&#x3D;&quot;http://placehold.it/150x100&quot;&gt;
+				&lt;div class&#x3D;&quot;ls-well ls-well--white&quot;&gt;
+					&lt;p&gt;Polaroid everyday carry marfa leggings tumblr kickstarter. Raw denim tattooed normcore woke, direct trade enamel pin 3 wolf moon mumblecore aesthetic drinking vinegar squid.&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class&#x3D;&quot;ls-card&quot;&gt;
+				&lt;div class&#x3D;&quot;ls-well ls-well--white&quot;&gt;
+					&lt;p&gt;Synth offal put a bird on it hella, snackwave narwhal actually green juice cold-pressed farm-to-table activated charcoal kickstarter butcher vegan. Bushwick 90&#x27;s thundercats kickstarter food truck, slow-carb small batch selvage selfies master cleanse
+						cliche schlitz.&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class&#x3D;&quot;ls-card&quot;&gt;
+				&lt;div class&#x3D;&quot;ls-well ls-well--white&quot;&gt;
+					&lt;p&gt;8-bit keytar single-origin coffee, chia mixtape blog intelligentsia cardigan knausgaard seitan crucifix.&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div class&#x3D;&quot;ls-card-footer&quot;&gt;
+					&lt;div class&#x3D;&quot;ls-well ls-well--yellow&quot;&gt;
+						Pickled single-origin coffee prism DIY, fashion axe locavore tote bag poke. Chillwave mixtape succulents asymmetrical af.
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+
+</div>
+
+
+<div class="f-item-group" id="form-elements">
+
+	<div class="f-item-heading-group">
+		<h2 class="f-item-heading" data-f-toggle="labels">Form Elements</h2>
+	</div>
+		<div class="f-item-group" id="form-elements.1-text-input">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Text Input</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="row">
 	<div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
 
-		<label for="textInput">Text Input</label>
-		<input class="ls-input" type="text" id="textInput">
+		<label for="text-input">Label</label>
+		<input class="ls-input" type="text" id="text-input">
 
-		<br>
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-8 col-md-6 col-lg-4&quot;&gt;
 
-		<label for="selectMenu">Select Menu</label>
-		<select class="ls-input" name="" id="selectMenu">
-            <option value="">Option 1</option>
-            <option value="">Option 2</option>
-            <option value="">Option 3</option>
-            <option value="">Option 4</option>
-            <option value="">Option 5</option>
-        </select>
+		&lt;label for&#x3D;&quot;text-input&quot;&gt;Label&lt;/label&gt;
+		&lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;text-input&quot;&gt;
 
-		<br>
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
 
-		<label for="textArea">Textarea</label>
-		<textarea class="ls-input" id="textArea" rows="8"></textarea>
+		</div>
+		<div class="f-item-group" id="form-elements.2-text-input-with-icon">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Text Input With Icon</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="row">
+	<div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
 
-		<br>
-
-		<label for="textInput">Text Input with Icon</label>
+		<label for="text-input-with-icon">Label</label>
 		<span class="ls-input-icon-wrap">
-            <input class="ls-input" type="text" id="textInput">
+            <input class="ls-input" type="text" id="text-input-with-icon">
             <i class="fa fa-dollar"></i>
         </span>
 
-		<br>
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-8 col-md-6 col-lg-4&quot;&gt;
 
-		<label for="textInput">Addon at start</label>
+		&lt;label for&#x3D;&quot;text-input-with-icon&quot;&gt;Label&lt;/label&gt;
+		&lt;span class&#x3D;&quot;ls-input-icon-wrap&quot;&gt;
+            &lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;text-input-with-icon&quot;&gt;
+            &lt;i class&#x3D;&quot;fa fa-dollar&quot;&gt;&lt;/i&gt;
+        &lt;/span&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="form-elements.3-text-input-with-addon">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Text Input With Addon</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="row">
+	<div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+
+		<label for="text-input-with-addon-at-start">Label</label>
 		<span class="ls-input-group">
             <span class="ls-input-group-addon">
-                At the start
+                At Start
             </span>
-		<input class="ls-input" type="text" id="textInput">
+		<input class="ls-input" type="text" id="text-input-with-addon-at-start">
 		</span>
 
 		<br>
 
-		<label for="textInput">Addon at end</label>
+		<label for="text-input-with-addon-at-end">Label</label>
 		<span class="ls-input-group">
-            <input class="ls-input" type="text" id="textInput">
+            <input class="ls-input" type="text" id="text-input-with-addon-at-end">
             <span class="ls-input-group-addon">
-                At the end
-            </span>
-		</span>
-
-		<br>
-
-		<label for="textInput">Button on end</label>
-		<span class="ls-input-group">
-            <input class="ls-input" type="text" id="textInput">
-            <span class="ls-input-group-button">
-                <button class="ls-button ls-button--blue">Button</button>
+                At End
             </span>
 		</span>
 
@@ -313,60 +501,21 @@
 	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
 	&lt;div class&#x3D;&quot;col-xs-12 col-sm-8 col-md-6 col-lg-4&quot;&gt;
 
-		&lt;label for&#x3D;&quot;textInput&quot;&gt;Text Input&lt;/label&gt;
-		&lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;textInput&quot;&gt;
-
-		&lt;br&gt;
-
-		&lt;label for&#x3D;&quot;selectMenu&quot;&gt;Select Menu&lt;/label&gt;
-		&lt;select class&#x3D;&quot;ls-input&quot; name&#x3D;&quot;&quot; id&#x3D;&quot;selectMenu&quot;&gt;
-            &lt;option value&#x3D;&quot;&quot;&gt;Option 1&lt;/option&gt;
-            &lt;option value&#x3D;&quot;&quot;&gt;Option 2&lt;/option&gt;
-            &lt;option value&#x3D;&quot;&quot;&gt;Option 3&lt;/option&gt;
-            &lt;option value&#x3D;&quot;&quot;&gt;Option 4&lt;/option&gt;
-            &lt;option value&#x3D;&quot;&quot;&gt;Option 5&lt;/option&gt;
-        &lt;/select&gt;
-
-		&lt;br&gt;
-
-		&lt;label for&#x3D;&quot;textArea&quot;&gt;Textarea&lt;/label&gt;
-		&lt;textarea class&#x3D;&quot;ls-input&quot; id&#x3D;&quot;textArea&quot; rows&#x3D;&quot;8&quot;&gt;&lt;/textarea&gt;
-
-		&lt;br&gt;
-
-		&lt;label for&#x3D;&quot;textInput&quot;&gt;Text Input with Icon&lt;/label&gt;
-		&lt;span class&#x3D;&quot;ls-input-icon-wrap&quot;&gt;
-            &lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;textInput&quot;&gt;
-            &lt;i class&#x3D;&quot;fa fa-dollar&quot;&gt;&lt;/i&gt;
-        &lt;/span&gt;
-
-		&lt;br&gt;
-
-		&lt;label for&#x3D;&quot;textInput&quot;&gt;Addon at start&lt;/label&gt;
+		&lt;label for&#x3D;&quot;text-input-with-addon-at-start&quot;&gt;Label&lt;/label&gt;
 		&lt;span class&#x3D;&quot;ls-input-group&quot;&gt;
             &lt;span class&#x3D;&quot;ls-input-group-addon&quot;&gt;
-                At the start
+                At Start
             &lt;/span&gt;
-		&lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;textInput&quot;&gt;
+		&lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;text-input-with-addon-at-start&quot;&gt;
 		&lt;/span&gt;
 
 		&lt;br&gt;
 
-		&lt;label for&#x3D;&quot;textInput&quot;&gt;Addon at end&lt;/label&gt;
+		&lt;label for&#x3D;&quot;text-input-with-addon-at-end&quot;&gt;Label&lt;/label&gt;
 		&lt;span class&#x3D;&quot;ls-input-group&quot;&gt;
-            &lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;textInput&quot;&gt;
+            &lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;text-input-with-addon-at-end&quot;&gt;
             &lt;span class&#x3D;&quot;ls-input-group-addon&quot;&gt;
-                At the end
-            &lt;/span&gt;
-		&lt;/span&gt;
-
-		&lt;br&gt;
-
-		&lt;label for&#x3D;&quot;textInput&quot;&gt;Button on end&lt;/label&gt;
-		&lt;span class&#x3D;&quot;ls-input-group&quot;&gt;
-            &lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;textInput&quot;&gt;
-            &lt;span class&#x3D;&quot;ls-input-group-button&quot;&gt;
-                &lt;button class&#x3D;&quot;ls-button ls-button--blue&quot;&gt;Button&lt;/button&gt;
+                At End
             &lt;/span&gt;
 		&lt;/span&gt;
 
@@ -374,6 +523,131 @@
 &lt;/div&gt;</code></pre>
 </div>
 
+		</div>
+		<div class="f-item-group" id="form-elements.4-text-input-with-button">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Text Input With Button</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="row">
+	<div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+
+		<label for="text-input-with-button">Label</label>
+		<span class="ls-input-group">
+            <input class="ls-input" type="text" id="text-input-with-button">
+            <span class="ls-input-group-button">
+                <button class="ls-button ls-button--blue">Do the Thing</button>
+            </span>
+		</span>
+
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-8 col-md-6 col-lg-4&quot;&gt;
+
+		&lt;label for&#x3D;&quot;text-input-with-button&quot;&gt;Label&lt;/label&gt;
+		&lt;span class&#x3D;&quot;ls-input-group&quot;&gt;
+            &lt;input class&#x3D;&quot;ls-input&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;text-input-with-button&quot;&gt;
+            &lt;span class&#x3D;&quot;ls-input-group-button&quot;&gt;
+                &lt;button class&#x3D;&quot;ls-button ls-button--blue&quot;&gt;Do the Thing&lt;/button&gt;
+            &lt;/span&gt;
+		&lt;/span&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="form-elements.5-textarea">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Textarea</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="row">
+	<div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+
+		<label for="text-area">Label</label>
+		<textarea class="ls-input" id="text-area" rows="8"></textarea>
+
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-8 col-md-6 col-lg-4&quot;&gt;
+
+		&lt;label for&#x3D;&quot;text-area&quot;&gt;Label&lt;/label&gt;
+		&lt;textarea class&#x3D;&quot;ls-input&quot; id&#x3D;&quot;text-area&quot; rows&#x3D;&quot;8&quot;&gt;&lt;/textarea&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="form-elements.6-select-menu">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Select Menu</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="row">
+	<div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+
+		<label for="select-menu">Label</label>
+		<select class="ls-input" name="" id="select-menu">
+            <option value="">Option 1</option>
+            <option value="">Option 2</option>
+            <option value="">Option 3</option>
+            <option value="">Option 4</option>
+            <option value="">Option 5</option>
+        </select>
+
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-8 col-md-6 col-lg-4&quot;&gt;
+
+		&lt;label for&#x3D;&quot;select-menu&quot;&gt;Label&lt;/label&gt;
+		&lt;select class&#x3D;&quot;ls-input&quot; name&#x3D;&quot;&quot; id&#x3D;&quot;select-menu&quot;&gt;
+            &lt;option value&#x3D;&quot;&quot;&gt;Option 1&lt;/option&gt;
+            &lt;option value&#x3D;&quot;&quot;&gt;Option 2&lt;/option&gt;
+            &lt;option value&#x3D;&quot;&quot;&gt;Option 3&lt;/option&gt;
+            &lt;option value&#x3D;&quot;&quot;&gt;Option 4&lt;/option&gt;
+            &lt;option value&#x3D;&quot;&quot;&gt;Option 5&lt;/option&gt;
+        &lt;/select&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
 
 </div>
 
@@ -465,6 +739,388 @@
 </div>
 
 		</div>
+
+</div>
+
+
+<div class="f-item-group" id="panel">
+
+	<div class="f-item-heading-group">
+		<h2 class="f-item-heading" data-f-toggle="labels">Panel</h2>
+	</div>
+		<div class="f-item-group" id="panel.1-panel">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Panel</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="row">
+	<div class="col-xs-12 col-sm-6">
+
+		<div class="ls-panel">
+			<div class="ls-panel-section">
+				<p>Food truck glossier next level cliche, fanny pack irony coloring book waistcoat hell of single-origin coffee bicycle rights kombucha. Ugh copper mug art party, portland vape bushwick fanny pack sustainable pabst.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-6&quot;&gt;
+
+		&lt;div class&#x3D;&quot;ls-panel&quot;&gt;
+			&lt;div class&#x3D;&quot;ls-panel-section&quot;&gt;
+				&lt;p&gt;Food truck glossier next level cliche, fanny pack irony coloring book waistcoat hell of single-origin coffee bicycle rights kombucha. Ugh copper mug art party, portland vape bushwick fanny pack sustainable pabst.&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="panel.2-panel-with-border-and-shadow">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Panel With Border And Shadow</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="row">
+	<div class="col-xs-12 col-sm-6">
+
+		<div class="ls-panel has-top-border has-shadow">
+			<div class="ls-panel-section">
+				<p>Put a bird on it actually cray viral listicle, williamsburg godard blog. Etsy migas fanny pack, letterpress prism pok pok man braid authentic wayfarers iPhone celiac crucifix asymmetrical. Austin wolf brunch direct trade tbh shoreditch.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row&quot;&gt;
+	&lt;div class&#x3D;&quot;col-xs-12 col-sm-6&quot;&gt;
+
+		&lt;div class&#x3D;&quot;ls-panel has-top-border has-shadow&quot;&gt;
+			&lt;div class&#x3D;&quot;ls-panel-section&quot;&gt;
+				&lt;p&gt;Put a bird on it actually cray viral listicle, williamsburg godard blog. Etsy migas fanny pack, letterpress prism pok pok man braid authentic wayfarers iPhone celiac crucifix asymmetrical. Austin wolf brunch direct trade tbh shoreditch.&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
+
+</div>
+
+
+<div class="f-item-group" id="text-utilities">
+
+	<div class="f-item-heading-group">
+		<h2 class="f-item-heading" data-f-toggle="labels">Text Utilities</h2>
+	</div>
+		<div class="f-item-group" id="text-utilities.alignment">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Alignment</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p class="ls-align-left">Left-aligned text</p>
+<p class="ls-align-right">Right-aligned text</p>
+<p class="ls-align-center">Center-aligned text</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p class&#x3D;&quot;ls-align-left&quot;&gt;Left-aligned text&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-align-right&quot;&gt;Right-aligned text&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-align-center&quot;&gt;Center-aligned text&lt;/p&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="text-utilities.casing">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Casing</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p class="ls-capitalize">capitalized text</p>
+<p class="ls-uppercase">uppercase text</p>
+<p class="ls-lowercase">LOWERCASE TEXT</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p class&#x3D;&quot;ls-capitalize&quot;&gt;capitalized text&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-uppercase&quot;&gt;uppercase text&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-lowercase&quot;&gt;LOWERCASE TEXT&lt;/p&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="text-utilities.emphasis">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Emphasis</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p class="ls-normal">Normal Text</p>
+<p class="ls-bold">Bold text</p>
+<p class="ls-light-text">Light text</p>
+<p class="ls-italic">Italic text</p>
+<p class="ls-underline">Underlined text</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p class&#x3D;&quot;ls-normal&quot;&gt;Normal Text&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-bold&quot;&gt;Bold text&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-light-text&quot;&gt;Light text&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-italic&quot;&gt;Italic text&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-underline&quot;&gt;Underlined text&lt;/p&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="text-utilities.formatting">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Formatting</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p class="ls-nowrap">Text will not wrap</p>
+<p class="ls-formatted-text">This will force text wrap</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p class&#x3D;&quot;ls-nowrap&quot;&gt;Text will not wrap&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-formatted-text&quot;&gt;This will force text wrap&lt;/p&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="text-utilities.highlighted-text">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Highlighted Text</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p>
+	Paragraph text with
+	<span class="ls-highlight">some words that are highlighted</span>, and some words that are not.
+</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p&gt;
+	Paragraph text with
+	&lt;span class&#x3D;&quot;ls-highlight&quot;&gt;some words that are highlighted&lt;/span&gt;, and some words that are not.
+&lt;/p&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="text-utilities.horizontal-rules">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Horizontal Rules</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<hr class="ls-size-0">
+<hr class="ls-size-6">
+<hr class="ls-size-9">
+<hr class="ls-size-12">
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;hr class&#x3D;&quot;ls-size-0&quot;&gt;
+&lt;hr class&#x3D;&quot;ls-size-6&quot;&gt;
+&lt;hr class&#x3D;&quot;ls-size-9&quot;&gt;
+&lt;hr class&#x3D;&quot;ls-size-12&quot;&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="text-utilities.sizing">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Sizing</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p class="ls-size-9">ls-size-9</p>
+<p class="ls-size-10">ls-size-10</p>
+<p class="ls-size-11">ls-size-11</p>
+<p class="ls-size-12">ls-size-12</p>
+<p class="ls-size-14">ls-size-14</p>
+<p class="ls-size-15">ls-size-15</p>
+<p class="ls-size-16">ls-size-16</p>
+<p class="ls-size-18">ls-size-18</p>
+<p class="ls-size-21">ls-size-21</p>
+<p class="ls-size-24">ls-size-24</p>
+<p class="ls-size-27">ls-size-27</p>
+<p class="ls-size-30">ls-size-30</p>
+<p class="ls-size-36">ls-size-36</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p class&#x3D;&quot;ls-size-9&quot;&gt;ls-size-9&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-10&quot;&gt;ls-size-10&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-11&quot;&gt;ls-size-11&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-12&quot;&gt;ls-size-12&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-14&quot;&gt;ls-size-14&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-15&quot;&gt;ls-size-15&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-16&quot;&gt;ls-size-16&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-18&quot;&gt;ls-size-18&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-21&quot;&gt;ls-size-21&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-24&quot;&gt;ls-size-24&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-27&quot;&gt;ls-size-27&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-30&quot;&gt;ls-size-30&lt;/p&gt;
+&lt;p class&#x3D;&quot;ls-size-36&quot;&gt;ls-size-36&lt;/p&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="text-utilities.truncate">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Truncate</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p style="max-width: 100px;">
+	<span class="ls-truncate">This text is truncated</span>
+</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p style&#x3D;&quot;max-width: 100px;&quot;&gt;
+	&lt;span class&#x3D;&quot;ls-truncate&quot;&gt;This text is truncated&lt;/span&gt;
+&lt;/p&gt;</code></pre>
+</div>
+
+		</div>
+
+</div>
+
+
+<div class="f-item-group" id="wells">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Wells</h2>
+		<div class="f-item-controls">
+			
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div>
+<div class="f-item-preview">
+	<div class="ls-panel">
+	<div class="ls-panel-section">
+		<div class="ls-well">
+			Default well
+		</div>
+		<div class="ls-well ls-well--white">
+			White well
+		</div>
+		<div class="ls-well ls-well--green">
+			Green well
+		</div>
+		<div class="ls-well ls-well--blue">
+			Blue well
+		</div>
+		<div class="ls-well ls-well--yellow">
+			Yellow well
+		</div>
+		<div class="ls-well ls-well--red">
+			Red well
+		</div>
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;ls-panel&quot;&gt;
+	&lt;div class&#x3D;&quot;ls-panel-section&quot;&gt;
+		&lt;div class&#x3D;&quot;ls-well&quot;&gt;
+			Default well
+		&lt;/div&gt;
+		&lt;div class&#x3D;&quot;ls-well ls-well--white&quot;&gt;
+			White well
+		&lt;/div&gt;
+		&lt;div class&#x3D;&quot;ls-well ls-well--green&quot;&gt;
+			Green well
+		&lt;/div&gt;
+		&lt;div class&#x3D;&quot;ls-well ls-well--blue&quot;&gt;
+			Blue well
+		&lt;/div&gt;
+		&lt;div class&#x3D;&quot;ls-well ls-well--yellow&quot;&gt;
+			Yellow well
+		&lt;/div&gt;
+		&lt;div class&#x3D;&quot;ls-well ls-well--red&quot;&gt;
+			Red well
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
 
 </div>
 
