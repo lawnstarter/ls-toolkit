@@ -30,7 +30,7 @@
     "npm": ">=2.0.0"
   },
   "dependencies": {
-    "ls-ui-common": "git+https://github.com/lawnstarter/ui-common.git#1.3.2"
+    "ls-ui-common": "git+https://github.com/lawnstarter/ui-common.git#1.3.10"
   },
   "devDependencies": {
     "babel-core": "^5.2.17",
